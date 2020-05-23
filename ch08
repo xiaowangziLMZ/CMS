@@ -1,0 +1,5 @@
+create role tlt with password 'p123456';
+create database textcms owner tlt;
+alter role tlt login;
+npm install
+node app.js
